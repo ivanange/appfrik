@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(224, 224, 224, 0.185);
+  background: linear-gradient(135deg, rgba(224, 224, 224, 0.185) 50%, #00b300 50%);
+}
+
+.form-wrapper {
+  background-color: rgba(197, 33, 33, 0);
+  color: #7e7e7e;
+}
+.form-wrapper .input {
+  background-color: rgba(212, 212, 212, 0.39);
+  color: #7e7e7e;
+}
+.form-wrapper .input[type=submit] {
+  background-color: #7e7e7e;
+  color: white;
+}
+.form-wrapper .form, .form-wrapper .aside {
+  background-color: white;
+}
+.form-wrapper .slide-content {
+  background-color: transparent;
+}
+.form-wrapper .buttons-wrapper {
+  background-color: transparent;
+}
+.form-wrapper .buttons-wrapper * {
+  background-color: rgba(212, 212, 212, 0.39);
+}
+.form-wrapper .button-active {
+  background-color: #838383;
+}
+.form-wrapper .input[type=checkbox], .form-wrapper label.input, .form-wrapper label.input a {
+  background-color: transparent;
+  color: #727171;
+}
+.form-wrapper .custom[type=checkbox] + label.custom::before {
+  color: white;
+  background-color: #7e7e7e;
+}
+
+/*# sourceMappingURL=theme.css.map */

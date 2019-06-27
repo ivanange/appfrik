@@ -1,0 +1,128 @@
+/*FOCUS*/
+.nk-int-st input[type="text"]:focus{
+    border-bottom: 2px solid #00c292;
+}
+/*End focus*/
+li a
+{
+    display: block;
+    color: hsla(0,0%,100%,.7);
+    padding: 8px 16px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 18px;
+    text-decoration: none;
+}
+li a:hover{text-decoration: none;}
+li a span
+{
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.inbox-message{
+    margin-top: 25px;
+    display: block;
+}
+.nk-int-st:not(.form-group) {
+    display: inline-block;
+    width: 100%;
+}
+.nk-int-st {
+    position: relative;
+    vertical-align: top;
+}
+.inbox-btn-st-ls {
+    margin: 20px 0px;
+    display: flex;
+}
+.nk-int-st input[type="text"], .nk-int-st textarea, .nk-int-st [type="number"], .nk-int-st [type="password"] {
+    box-shadow: none;
+    border-radius: 0;
+    border-top:none;
+    border-left: none;
+    border-bottom:  1px solid #ccc;
+}
+.search-input input[type="text"] {
+    padding: 8px 10px;
+    width: 100%;
+    
+    color: #333;
+    transition: all .4s ease 0s;
+}
+.form-control{
+    display: block;
+    height: 34px;
+    line-height: 1.42857143;
+    
+}
+.search-input .search-ib {
+    border: none;
+    background: #00c292;
+    font-size: 14px;
+    position: absolute;
+    padding: 7px 20px;
+    right: 0;
+    top: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #fff;
+    outline: none;
+}   
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+}
+.inbox-btn-st-ls.btn-toolbar .btn-group {
+    margin-bottom: 0px;
+}
+.btn-group.btn-default {
+    border: 1px solid transparent;
+}
+.active-hook .btn-default {
+    font-size: 14px;
+    color: #333;
+    border: none;
+}
+.btn-group.ib-btn-gp.active-hook.nk-act {
+    margin-left: auto;
+    float: right;
+}
+input[type="checkbox"], input[type="radio"] {   
+    cursor: pointer;
+}
+
+/*pagination*/
+.pagination-inbox {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+ul.wizard-nav-ac {
+    text-align: center;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul.wizard-nav-ac li {
+    display: inline-block;
+}
+.pagination-inbox ul.wizard-nav-ac li a {
+    line-height: 24px;
+    background: #ccc;
+}
+ul.wizard-nav-ac li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;   
+    color: #fff;
+    display: inline-block;
+}
+ul.wizard-nav-ac li i {
+    font-size: 13px;
+}
+.pagination-inbox ul.wizard-nav-ac li i {
+    line-height: 20px;
+}

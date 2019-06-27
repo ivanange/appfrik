@@ -1,0 +1,58 @@
+.navbar-head{background-color:#00c292; height: 60px;}
+.navbar-brand{margin-top: -20px;}
+.logoshare{text-align: center;}
+footer{display: block;}
+.field-info,footer
+{
+  padding: 0;
+  clear:both;
+  height:70px;
+  margin-top: 40px !important;
+}
+.wb-traffic-inner{
+	padding:5px;
+	display:flex;
+    border: 2px solid #00c292;
+    border-radius: 8px;
+}
+.user-img{display: inline;}
+#menu1 ul li,#home ul li{
+    display: inline;
+    font-size: 18px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.user-status-area{
+    margin-right: 0;
+    padding: 0;
+}
+.field-user li a{
+    color: #333;
+}
+.field-user{margin-top: 32px;}
+.nav.nav-tabs li
+{
+   font-size: 18px;
+}
+.nav.nav-tabs li span{
+    margin-left: 8px;
+}
+.comment-btn
+{float: left;
+border-radius: 5px;
+padding: 2px;
+margin-top: 12px;
+width: 85%;
+font-size: 18px;
+color: hsla(0,0%,100%,.7);
+background-color: #24292e;
+border: none;
+}
+.dropdown-toggle,.col-sm-2{cursor: pointer;}
+#notification{
+    width: 500px;
+}
+footer{
+ 
+    padding-top:2px;
+}

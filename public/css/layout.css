@@ -1,0 +1,99 @@
+/*//////////////////////////////////////////////////////////////////
+
+*/
+
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #24292e;
+    height: 100px;
+    color: hsla(0,0%,100%,.7);
+  }
+.navbar-brand
+{
+	margin-left: 0;
+}
+.logo
+{
+   display: inline-block;
+   position: relative;
+   bottom: 14px;
+}
+#myNavbar
+{
+float: right;
+margin-top: 20px;
+}
+.connect-link
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#myNavbar ul button li a
+{
+  text-decoration: none;
+}
+.login-btn li a
+{
+  color: #fff;
+}
+.inscrip-btn li a
+{
+  color:#fff;
+}
+
+.login-btn
+{
+    background-color: #24292e; 
+    border:none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.login-btn, .inscrip-btn
+{
+  border-radius: 4px;
+}
+.inscrip-btn{
+    background-color: #24292e; 
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p.help.is-danger
+{
+    color: #ff00bf;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #0d001a;
+  color: white;
+  padding: 15px;
+  clear:both;
+  height:70px;      
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 500px) {
+  .connect-link button {
+    height: auto;
+    padding: 2px 4px;
+    display: flex;
+  }
+  .row.content {height:auto;} 
+} 
